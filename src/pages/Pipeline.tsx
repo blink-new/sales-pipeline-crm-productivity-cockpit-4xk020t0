@@ -209,7 +209,7 @@ export function Pipeline() {
                 My deals only
               </DropdownMenuCheckboxItem>
               <DropdownMenuCheckboxItem>
-                High value (>$50k)
+                High value (&gt;$50k)
               </DropdownMenuCheckboxItem>
               <DropdownMenuCheckboxItem>
                 Closing this month
