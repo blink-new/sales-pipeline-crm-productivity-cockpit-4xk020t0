@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --background: 210 10% 23%; /* Slate Gray #2F3E46 */
+    --foreground: 0 0% 100%; /* Pure White #FFFFFF */
+    --card: 0 0% 100%; /* Pure White #FFFFFF */
+    --card-foreground: 0 0% 11%; /* Charcoal Black #1C1C1C */
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 11%;
+    --primary: 211 100% 50%; /* Electric Blue #007BFF */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 10% 23%; /* Slate Gray #2F3E46 lighter */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 210 10% 90%;
+    --muted-foreground: 210 10% 40%;
+    --accent: 39 100% 67%; /* Warm Amber #FFC857 */
+    --accent-foreground: 0 0% 11%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 210 10% 80%;
+    --input: 210 10% 80%;
+    --ring: 211 100% 50%;
+    --chart-1: 211 100% 50%; /* Electric Blue */
+    --chart-2: 39 100% 67%; /* Warm Amber */
+    --chart-3: 171 62% 40%; /* Teal */
+    --chart-4: 354 70% 54%; /* Coral Red */
+    --chart-5: 262 83% 58%; /* Purple */
+    --radius: 0.5rem;
+    --sidebar-background: 210 15% 16%; /* Darker Slate Gray */
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 211 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 39 100% 67%;
+    --sidebar-accent-foreground: 0 0% 11%;
+    --sidebar-border: 210 10% 30%;
+    --sidebar-ring: 211 100% 50%;
+  }
+  .dark {
+    --background: 210 10% 23%; /* Slate Gray #2F3E46 */
+    --foreground: 0 0% 100%; /* Pure White #FFFFFF */
+    --card: 0 0% 100%; /* Pure White #FFFFFF */
+    --card-foreground: 0 0% 11%; /* Charcoal Black #1C1C1C */
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 11%;
+    --primary: 211 100% 50%; /* Electric Blue #007BFF */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 10% 23%; /* Slate Gray #2F3E46 lighter */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 210 10% 90%;
+    --muted-foreground: 210 10% 40%;
+    --accent: 39 100% 67%; /* Warm Amber #FFC857 */
+    --accent-foreground: 0 0% 11%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 210 10% 80%;
+    --input: 210 10% 80%;
+    --ring: 211 100% 50%;
+    --chart-1: 211 100% 50%; /* Electric Blue */
+    --chart-2: 39 100% 67%; /* Warm Amber */
+    --chart-3: 171 62% 40%; /* Teal */
+    --chart-4: 354 70% 54%; /* Coral Red */
+    --chart-5: 262 83% 58%; /* Purple */
+    --radius: 0.5rem;
+    --sidebar-background: 210 15% 16%; /* Darker Slate Gray */
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 211 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 39 100% 67%;
+    --sidebar-accent-foreground: 0 0% 11%;
+    --sidebar-border: 210 10% 30%;
+    --sidebar-ring: 211 100% 50%;
+  }
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
